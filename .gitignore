@@ -1,0 +1,97 @@
+# .gitignore for YOLO Room Object Detection Project
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Dataset and model files
+dataset_yolo/
+rm -Force -Recurse .git*.pt
+*.weights
+*.onnx
+
+# Temporary files
+temp_audio/
+*.tmp
+*.temp
+*~
+*.bak
+*.swp
+*.swo
+
+# Streamlit cache
+.streamlit/cache
+
+# Log files
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large media files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.mov
+*.avi
+
+# Audio files
+*.mp3
+*.wav
+*.ogg
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Secrets
+secrets.toml
+*.key
+*.pem
+*.cert
